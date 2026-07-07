@@ -37,7 +37,7 @@ export interface Tour {
   slug: string;
   title: string;
   description: string;
-  /** Valor em reais, sem o prefixo "R$". Ex: "210" */
+  /** Valor em reais, sem o prefixo "R$". Ex: "150" */
   price: string;
   tag?: string;
   images: StaticImageData[];
@@ -103,7 +103,7 @@ export const site: SiteContent = {
       tag: "Ilhas Paradisíacas",
       description:
         "Navegue por praias e Ilhas incríveis da Baía de Angra dos Reis: Ilhas Botinas, Ilha da Gipóia (Praia do Dentista, Praia das Fechas, Praia da Fazenda e Ponta da Piedade)",
-      price: "210",
+      price: "150",
       images: [aventureiro8, dji0062, cataguases, botinas],
     },
     {
@@ -112,7 +112,7 @@ export const site: SiteContent = {
       tag: "Super Lagoa Azul",
       description:
         "Um dos cartões postais da Ilha Grande te espera neste passeio! Ilha de Cataguases, Lagoa Azul, Praia de Grumixama e Praia de Aripeba.",
-      price: "210",
+      price: "150",
       images: [lagoa5, lagoaAzul9, lagoaAzul13, lagoaAzul19],
     },
     {
@@ -121,7 +121,7 @@ export const site: SiteContent = {
       tag: "Meia-volta",
       description:
         "O roteiro para quem quer explorar grande parte da Ilha Grande. Lagoa Azul, Praia de Araçá, Praia de Aripeba, Maguariquessaba e Lagoa Verde.",
-      price: "210",
+      price: "150",
       images: [lagoa14, dji0213, dji0191, img5053],
     },
   ],
